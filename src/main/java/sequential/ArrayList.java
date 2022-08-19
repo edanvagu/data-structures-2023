@@ -78,11 +78,7 @@ public class ArrayList<T> implements List<T> {
      */
     @Override
     public boolean contains(T e) {
-        for (int i = 0; i < this.size; i++) {
-            if(((T)this.list[i]).equals(e)) return true;
-        }
-
-        return false;
+       return this.indexOf(e) != -1;
     }
 
     /**
@@ -92,8 +88,8 @@ public class ArrayList<T> implements List<T> {
      */
     @Override
     public T get(int index) {
-        if(index <= this.size) return (T) this.list[index];
-        return null;
+        if(index >= this.size || index < 0) throw new IndexOutOfBoundsException("Index not valid");
+        return (T) this.list[index];
     }
 
     /**
@@ -125,8 +121,7 @@ public class ArrayList<T> implements List<T> {
      */
     @Override
     public T remove(int index) {
-        if(index >= this.size || index < 0) throw new IndexOutOfBoundsException("Index not valid");
-        T e = (T) this.list[index];
+        T e = this.get(index);
         // We need to move the elements to the left
         for (int i = index + 1; i < this.size; i++) {
             this.list[i - 1] = this.list[i];
