@@ -1,5 +1,7 @@
 package sequential;
 
+import util.Util;
+
 import java.util.Iterator;
 
 /**
@@ -44,7 +46,7 @@ public class ArrayList<T> implements List<T> {
      */
     @Override
     public void add(int index, T e) {
-        if(index > this.size || index < 0) throw new IndexOutOfBoundsException("Index not valid");
+        Util.checkIndexOpen(index, this.size);
         //We need to double the size of the array
         if(this.size == this.list.length) {
             Object[] temp = this.list;
@@ -82,13 +84,13 @@ public class ArrayList<T> implements List<T> {
     }
 
     /**
-     * Check if the index is valid, otherwise return null
+     * Check if the index is valid, otherwise throw an exception
      * @param index index of the element to return
      * @return element in a specific position
      */
     @Override
     public T get(int index) {
-        if(index >= this.size || index < 0) throw new IndexOutOfBoundsException("Index not valid");
+        Util.checkIndexClose(index, this.size);
         return (T) this.list[index];
     }
 

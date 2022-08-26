@@ -1,4 +1,5 @@
-import sequential.ArrayList;
+import sequential.List;
+import sequential.SinglyLinkedList;
 
 /**
  * @author Andres Gutierrez
@@ -6,7 +7,9 @@ import sequential.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<Integer> myList = new ArrayList<>(5);
+//        List<Integer> myList = new ArrayList<>(5);
+        List<Integer> myList = new SinglyLinkedList();
+
         myList.add(10);
         myList.add(5);
         myList.add(0,3);
@@ -35,9 +38,12 @@ public class Main {
         myList.add(0,1);
         myList.add(2,4);
         myList.add(2,3);
-        //[1,2,3,4,5]
+        myList.add(6);
+        //[1,2,3,4,5,6]
         for (Integer el: myList) {
             System.out.println(el);
         }
+        System.out.println(myList.get(3));
+
     }
 }
