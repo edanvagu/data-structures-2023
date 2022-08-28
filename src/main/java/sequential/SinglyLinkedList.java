@@ -158,6 +158,8 @@ public class SinglyLinkedList<T> implements List<T> {
         if(index == 0) {
             temp = this.head;
             this.head = this.head.getNext();
+            if(this.head == null) this.tail = null;
+
         } else if(index == this.size - 1) {
             Node<T> pre = this.head;
             temp = pre.getNext();
