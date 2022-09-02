@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1253a66a-7171-4374-97dd-591974ea3b8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sequential/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sequential/SinglyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/DoubleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sequential/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sequential/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sequential/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/LinkedListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sequential/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/LinkedListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sequential/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sequential/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +78,10 @@
       <workItem from="1661103202079" duration="15781000" />
       <workItem from="1661386741206" duration="218000" />
       <workItem from="1661483733255" duration="112000" />
+      <workItem from="1661641382844" duration="14000" />
+      <workItem from="1661641400081" duration="6733000" />
+      <workItem from="1661858080208" duration="3000" />
+      <workItem from="1662087961293" duration="2225000" />
     </task>
     <servers />
   </component>
@@ -100,13 +104,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>31</line>
+          <line>30</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
