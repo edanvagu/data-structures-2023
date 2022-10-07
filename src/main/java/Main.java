@@ -1,3 +1,5 @@
+import nonSequential.BinaryTree;
+import nonSequential.RecursiveBinarySearchTree;
 import sequential.*;
 
 /**
@@ -79,29 +81,91 @@ public class Main {
 
         // QUEUE
 
-        Queue<String> queue = new LinkedListQueue<>();
-        queue.add("Andres");
-        queue.add("Rene");
-        queue.add("Mario");
-        System.out.println(queue);
-        queue.add("Samuel");
-        queue.add("Natalia");
-        queue.add("Maria");
-        queue.add("Nancy");
-        queue.add("Cristian");
-        queue.add("Daniel");
-        queue.add("Nubia");
-        System.out.println(queue);
-        System.out.println(queue.peek());
-        System.out.println(queue.poll());
-        while (!queue.empty()) {
-            queue.poll();
-        }
-        System.out.println(queue.empty());
-        queue.add("Andres");
-        queue.add("Samuel");
-        System.out.println(queue);
-        System.out.println(queue.empty());
+//        Queue<String> queue = new LinkedListQueue<>();
+//        queue.toString();
+//        queue.add("Andres");
+//        queue.add("Rene");
+//        queue.add("Mario");
+//        System.out.println(queue);
+//        queue.add("Samuel");
+//        queue.add("Natalia");
+//        queue.add("Maria");
+//        queue.add("Nancy");
+//        queue.add("Cristian");
+//        queue.add("Daniel");
+//        queue.add("Nubia");
+//        System.out.println(queue);
+//        System.out.println(queue.peek());
+//        System.out.println(queue.poll());
+//        while (!queue.empty()) {
+//            queue.poll();
+//        }
+//        System.out.println(queue.empty());
+//        queue.add("Andres");
+//        queue.add("Samuel");
+//        System.out.println(queue);
+//        System.out.println(queue.empty());
 
+        //TREE
+        BinaryTree<String> tree = new RecursiveBinarySearchTree<>();
+        System.out.println("Size: " + tree.size());
+        System.out.println("Height: " + tree.height());
+
+        System.out.println(tree.search("Andres"));
+
+        tree.insert("Andres");
+        tree.insert("Ana");
+        tree.insert("Camilo");
+        tree.insert("Juanita");
+        tree.insert("Beto");
+        tree.insert("Fabio");
+        System.out.println("------------------------------");
+        System.out.println(tree);
+        System.out.println("------------------------------");
+
+        System.out.println(tree.search("Andres"));
+        System.out.println(tree.search("Fabioooo"));
+        System.out.println(tree.search("Camilo"));
+
+
+        System.out.println("Size: " + tree.size());
+        System.out.println("Height: " + tree.height());
+        System.out.println("Max: " + tree.maxValue());
+        System.out.println("Min: " + tree.minValue());
+
+        tree.delete("Juanita");
+        tree.delete("Andres");
+
+        System.out.println("------------------------------");
+        System.out.println(tree);
+        System.out.println("------------------------------");
+
+        System.out.println(tree.search("Camilo"));
+
+        System.out.println("Size: " + tree.size());
+        System.out.println("Height: " + tree.height());
+        System.out.println("Max: " + tree.maxValue());
+        System.out.println("Min: " + tree.minValue());
+
+        tree.inOrder();
+        System.out.println();
+        tree.preOrder();
+        System.out.println();
+        tree.postOrder();
+        System.out.println();
+
+        System.out.println("Balanced " + tree.isBalanced());
+        tree.insert("Nancy");
+        tree.insert("Julian");
+        tree.insert("Samuel");
+        System.out.println("Balanced " + tree.isBalanced());
+        System.out.println("------------------------------");
+        System.out.println(tree);
+        System.out.println("------------------------------");
+        tree.balance();
+        System.out.println("Balanced " + tree.isBalanced());
+        System.out.println("------------------------------");
+        System.out.println(tree);
+        System.out.println("------------------------------");
     }
 }

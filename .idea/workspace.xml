@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1253a66a-7171-4374-97dd-591974ea3b8e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/RecursiveBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sequential/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sequential/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/LinkedListQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sequential/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/LinkedListStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sequential/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sequential/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +80,14 @@
       <workItem from="1661641400081" duration="6733000" />
       <workItem from="1661858080208" duration="3000" />
       <workItem from="1662087961293" duration="2225000" />
+      <workItem from="1662219586722" duration="1000" />
+      <workItem from="1664805442258" duration="13545000" />
+      <workItem from="1664903589620" duration="308000" />
+      <workItem from="1664933106493" duration="4000" />
+      <workItem from="1664997540132" duration="3216000" />
+      <workItem from="1665091232706" duration="2886000" />
+      <workItem from="1665107170097" duration="194000" />
+      <workItem from="1665107546358" duration="271000" />
     </task>
     <servers />
   </component>
@@ -104,28 +110,34 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>34</line>
+          <line>36</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>30</line>
+          <line>32</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>48</line>
+          <line>50</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nonSequential/RecursiveBinarySearchTree.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="6" />
+          <line>139</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="util.TreeNode" memberName="left" />
         <PinnedItemInfo parentTag="util.DoubleNode" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>

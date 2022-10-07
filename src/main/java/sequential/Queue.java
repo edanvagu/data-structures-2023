@@ -20,7 +20,8 @@ public abstract class Queue<T> implements Iterable<T> {
             sb.append(e);
             sb.append("\u2190");
         }
-        sb.replace(sb.length() - 1, sb.length(), "");
+        if(sb.length() > 0)
+            sb.replace(sb.length() - 1, sb.length(), "");
         return sb.toString();
     }
 
