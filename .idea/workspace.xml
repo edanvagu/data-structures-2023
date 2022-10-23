@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1253a66a-7171-4374-97dd-591974ea3b8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/RecursiveBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/AvlBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/MaxHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sequential/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequential/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nonSequential/RecursiveBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nonSequential/RecursiveBinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +88,11 @@
       <workItem from="1665091232706" duration="2886000" />
       <workItem from="1665107170097" duration="194000" />
       <workItem from="1665107546358" duration="271000" />
+      <workItem from="1665263830621" duration="6168000" />
+      <workItem from="1665952776223" duration="4086000" />
+      <workItem from="1665956996785" duration="3277000" />
+      <workItem from="1666041597592" duration="714000" />
+      <workItem from="1666564825808" duration="678000" />
     </task>
     <servers />
   </component>
@@ -110,28 +115,28 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>36</line>
+          <line>35</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>32</line>
+          <line>31</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>50</line>
+          <line>49</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/nonSequential/RecursiveBinarySearchTree.java</url>
-          <line>147</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>139</line>
-          <option name="timeStamp" value="16" />
+          <line>235</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

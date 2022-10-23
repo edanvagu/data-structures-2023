@@ -9,7 +9,7 @@ import util.TreeNode;
 
 public class RecursiveBinarySearchTree<T extends Comparable<T>> implements BinaryTree<T> {
 
-    private TreeNode<T> root;
+    protected TreeNode<T> root;
 
     public RecursiveBinarySearchTree(T data) {
         this.root = new TreeNode<>(data);
@@ -135,7 +135,7 @@ public class RecursiveBinarySearchTree<T extends Comparable<T>> implements Binar
     }
 
     private TreeNode<T> delete(TreeNode<T> root, T data) {
-        if(root == null) return null;
+        if(root == null) return root;
         if(data.compareTo(root.getKey()) < 0) {
             root.setLeft(this.delete(root.getLeft(), data));
         }
@@ -156,12 +156,12 @@ public class RecursiveBinarySearchTree<T extends Comparable<T>> implements Binar
         return 1 + size(root.getLeft()) + size(root.getRight());
     }
 
-    private int height(TreeNode<T> root) {
+    protected int height(TreeNode<T> root) {
         if(root == null) return 0;
         return 1 + Math.max(height(root.getLeft()), height(root.getRight()));
     }
 
-    private T minValue(TreeNode<T> root) {
+    protected T minValue(TreeNode<T> root) {
         if(root == null) return null;
         if(root.getLeft() == null) return root.getKey();
         else return minValue(root.getLeft());
@@ -216,7 +216,7 @@ public class RecursiveBinarySearchTree<T extends Comparable<T>> implements Binar
         else return this.search(root.getRight(), data);
     }
 
-    private boolean isBalanced(TreeNode<T> root) {
+    protected boolean isBalanced(TreeNode<T> root) {
         if(root == null) return true;
         int lh = this.height(root.getLeft());
         int rh = this.height(root.getRight());
