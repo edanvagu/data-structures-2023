@@ -175,59 +175,163 @@ public class Main {
 //        tree.insert(11);
 //        tree.insert(9);
 
-        Heap<Integer> maxHeap = new MaxHeap<>(20);
-        maxHeap.add(4);
-        maxHeap.add(10);
-        maxHeap.add(9);
-        maxHeap.add(15);
-        maxHeap.add(11);
-        System.out.println("--------------------------");
-        System.out.println(maxHeap);
-        System.out.println("--------------------------");
-        maxHeap.add(20);
-        System.out.println("--------------------------");
-        System.out.println(maxHeap);
-        System.out.println("--------------------------");
+//        Heap<Integer> maxHeap = new MaxHeap<>(20);
+//        maxHeap.add(4);
+//        maxHeap.add(10);
+//        maxHeap.add(9);
+//        maxHeap.add(15);
+//        maxHeap.add(11);
+//        System.out.println("--------------------------");
+//        System.out.println(maxHeap);
+//        System.out.println("--------------------------");
+//        maxHeap.add(20);
+//        System.out.println("--------------------------");
+//        System.out.println(maxHeap);
+//        System.out.println("--------------------------");
+//
+//        System.out.println(maxHeap.get());
+//        maxHeap.extract();
+//
+//        System.out.println("--------------------------");
+//        System.out.println(maxHeap);
+//        System.out.println("--------------------------");
+//
+//        maxHeap.extract();
+//
+//        System.out.println("--------------------------");
+//        System.out.println(maxHeap);
+//        System.out.println("--------------------------");
+//
+//        maxHeap.add(14);
+//        maxHeap.add(15);
+//        maxHeap.add(17);
+//        maxHeap.add(18);
+//
+//        System.out.println("--------------------------");
+//        System.out.println(maxHeap);
+//        System.out.println("--------------------------");
+//
+//        maxHeap.update(8, 22);
+//
+//        System.out.println("--------------------------");
+//        System.out.println(maxHeap);
+//        System.out.println("--------------------------");
+//
+//        maxHeap.update(2, 12);
+//
+//        System.out.println("--------------------------");
+//        System.out.println(maxHeap);
+//        System.out.println("--------------------------");
+//
+//        int element = maxHeap.remove(6);
+//        System.out.println(element);
+//
+//        System.out.println("--------------------------");
+//        System.out.println(maxHeap);
+//        System.out.println("--------------------------");
 
-        System.out.println(maxHeap.get());
-        maxHeap.extract();
+//        DisjointUnionSets sets = new DisjointUnionSets(8);
+//        System.out.println(sets);
+//
+//        System.out.println(sets.find(0) == sets.find(5));
+//        sets.union(0,7);
+//        sets.union(2,1);
+//        sets.union(2,3);
+//        sets.union(7,4);
+//        sets.union(5,6);
+//        System.out.println(sets);
+//        System.out.println(sets.find(0) == sets.find(5));
+//        sets.union(0,1);
+//        System.out.println(sets);
+//        System.out.println(sets.find(0) == sets.find(5));
+//        sets.union(0,6);
+//        System.out.println(sets);
+//        System.out.println(sets.find(0) == sets.find(5));
+//
+//        sets.find(6);
+//        sets.find(3);
+//        sets.find(1);
+//        System.out.println(sets);
 
-        System.out.println("--------------------------");
-        System.out.println(maxHeap);
-        System.out.println("--------------------------");
+//        Map<String, Integer> map = new HashMap<>();
+//        map.put("Andres", 10);
+//        map.put("Samuel",15);
+//        map.put("Daniel", 2);
+//        map.put("Nancy",9);
+//        System.out.println(map.get("Andres"));
+//        System.out.println(map.hasKey("Andres"));
+//        System.out.println(map.hasKey("Camila"));
+//        System.out.println("-------------------------------------");
+//        System.out.println(map);
+//        System.out.println("-------------------------------------");
+//        map.put("Daniel", 50);
+//        map.put("Alejandra", 2);
+//        map.put("Sonia", 3);
+//        map.put("Rene", 100);
+//        map.put("Fernando", 25);
+//        map.put("Mario", 100);
+//        map.put("Maria", 110);
+//        map.put("Camila", 1);
+//
+//        System.out.println(map.hasKey("Camila"));
+//        System.out.println(map.get("Camila"));
+//
+//        map.remove("Javier");
+//        map.remove("Andres");
+//
+//        System.out.println("-------------------------------------");
+//        System.out.println(map);
+//        System.out.println("-------------------------------------");
+//
+//        map.put("Carlos", -1);
+//        map.put("Javier", 0);
+//        map.put("Hernando", -10);
+//        map.put("Jairo", 0);
+//
+//        map.remove("Camila");
+//        map.remove("Fernando");
+//
+//        System.out.println(map.hasKey("Camila"));
+//        System.out.println("-------------------------------------");
+//        System.out.println(map);
+//        System.out.println("-------------------------------------");
 
-        maxHeap.extract();
+        Set<String> set = new HashSet<>();
 
-        System.out.println("--------------------------");
-        System.out.println(maxHeap);
-        System.out.println("--------------------------");
+        set.add("Andres");
+        set.add("Carlos");
+        set.add("Maria");
+        System.out.println("-------------------------------------");
+        System.out.println(set);
+        System.out.println("-------------------------------------");
+        System.out.println(set.get("Maria"));
+        System.out.println(set.get("Nancy"));
 
-        maxHeap.add(14);
-        maxHeap.add(15);
-        maxHeap.add(17);
-        maxHeap.add(18);
+        set.add("Nancy");
+        set.add("Daniel");
+        set.add("Samuel");
+        set.add("Carlos");
+        set.add("Sofia");
+        System.out.println("-------------------------------------");
+        System.out.println(set);
+        System.out.println("-------------------------------------");
 
-        System.out.println("--------------------------");
-        System.out.println(maxHeap);
-        System.out.println("--------------------------");
+        set.remove("Caterine");
+        set.remove("Carlos");
+        set.remove("Nancy");
 
-        maxHeap.update(8, 22);
+        System.out.println("-------------------------------------");
+        System.out.println(set);
+        System.out.println("-------------------------------------");
 
-        System.out.println("--------------------------");
-        System.out.println(maxHeap);
-        System.out.println("--------------------------");
+        set.add("Caterine");
+        set.add("Carlos");
+        set.add("Nancy");
+        set.add("Javier");
+        set.add("Fernando");
 
-        maxHeap.update(2, 12);
-
-        System.out.println("--------------------------");
-        System.out.println(maxHeap);
-        System.out.println("--------------------------");
-
-        int element = maxHeap.remove(6);
-        System.out.println(element);
-
-        System.out.println("--------------------------");
-        System.out.println(maxHeap);
-        System.out.println("--------------------------");
+        System.out.println("-------------------------------------");
+        System.out.println(set);
+        System.out.println("-------------------------------------");
     }
 }

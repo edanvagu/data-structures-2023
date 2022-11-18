@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1253a66a-7171-4374-97dd-591974ea3b8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/AvlBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/DisjointUnionSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/HashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nonSequential/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/HashNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nonSequential/RecursiveBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nonSequential/RecursiveBinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +94,11 @@
       <workItem from="1665952776223" duration="4086000" />
       <workItem from="1665956996785" duration="3277000" />
       <workItem from="1666041597592" duration="714000" />
-      <workItem from="1666564825808" duration="678000" />
+      <workItem from="1666564825808" duration="1016000" />
+      <workItem from="1667337497295" duration="2374000" />
+      <workItem from="1667347169238" duration="5000" />
+      <workItem from="1668704146630" duration="10169000" />
+      <workItem from="1668726496750" duration="3710000" />
     </task>
     <servers />
   </component>
@@ -135,8 +141,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>235</line>
-          <option name="timeStamp" value="21" />
+          <line>178</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
