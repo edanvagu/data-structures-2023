@@ -106,66 +106,66 @@ public class Main {
 //        System.out.println(queue.empty());
 
         //TREE
-//        BinaryTree<String> tree = new RecursiveBinarySearchTree<>();
-//        System.out.println("Size: " + tree.size());
-//        System.out.println("Height: " + tree.height());
+        BinaryTree<String> tree = new IterativeBinarySearchTree<>();
+        System.out.println("Size: " + tree.size());
+        System.out.println("Height: " + tree.height());
 //
-//        System.out.println(tree.search("Andres"));
+        System.out.println(tree.search("Andres"));
 //
-//        tree.insert("Andres");
-//        tree.insert("Ana");
-//        tree.insert("Camilo");
-//        tree.insert("Juanita");
-//        tree.insert("Beto");
-//        tree.insert("Fabio");
-//        System.out.println("------------------------------");
-//        System.out.println(tree);
-//        System.out.println("------------------------------");
+        tree.insert("Andres");
+        tree.insert("Ana");
+        tree.insert("Camilo");
+        tree.insert("Juanita");
+        tree.insert("Beto");
+        tree.insert("Fabio");
+        System.out.println("------------------------------");
+        System.out.println(tree);
+        System.out.println("------------------------------");
 //
-//        System.out.println(tree.search("Andres"));
-//        System.out.println(tree.search("Fabioooo"));
-//        System.out.println(tree.search("Camilo"));
+        System.out.println(tree.search("Andres"));
+        System.out.println(tree.search("Fabioooo"));
+        System.out.println(tree.search("Camilo"));
 //
 //
-//        System.out.println("Size: " + tree.size());
-//        System.out.println("Height: " + tree.height());
-//        System.out.println("Max: " + tree.maxValue());
-//        System.out.println("Min: " + tree.minValue());
+        System.out.println("Size: " + tree.size());
+        System.out.println("Height: " + tree.height());
+        System.out.println("Max: " + tree.maxValue());
+        System.out.println("Min: " + tree.minValue());
 //
-//        tree.delete("Juanita");
-//        tree.delete("Andres");
+        tree.delete("Juanita");
+        tree.delete("Andres");
 //
-//        System.out.println("------------------------------");
-//        System.out.println(tree);
-//        System.out.println("------------------------------");
+        System.out.println("------------------------------");
+        System.out.println(tree);
+        System.out.println("------------------------------");
+
+        System.out.println(tree.search("Camilo"));
 //
-//        System.out.println(tree.search("Camilo"));
+        System.out.println("Size: " + tree.size());
+        System.out.println("Height: " + tree.height());
+        System.out.println("Max: " + tree.maxValue());
+        System.out.println("Min: " + tree.minValue());
+
+        tree.inOrder();
+        System.out.println();
+        tree.preOrder();
+        System.out.println();
+        tree.postOrder();
+        System.out.println();
 //
-//        System.out.println("Size: " + tree.size());
-//        System.out.println("Height: " + tree.height());
-//        System.out.println("Max: " + tree.maxValue());
-//        System.out.println("Min: " + tree.minValue());
-//
-//        tree.inOrder();
-//        System.out.println();
-//        tree.preOrder();
-//        System.out.println();
-//        tree.postOrder();
-//        System.out.println();
-//
-//        System.out.println("Balanced " + tree.isBalanced());
-//        tree.insert("Nancy");
-//        tree.insert("Julian");
-//        tree.insert("Samuel");
-//        System.out.println("Balanced " + tree.isBalanced());
-//        System.out.println("------------------------------");
-//        System.out.println(tree);
-//        System.out.println("------------------------------");
-//        tree.balance();
-//        System.out.println("Balanced " + tree.isBalanced());
-//        System.out.println("------------------------------");
-//        System.out.println(tree);
-//        System.out.println("------------------------------");
+        System.out.println("Balanced " + tree.isBalanced());
+        tree.insert("Nancy");
+        tree.insert("Julian");
+        tree.insert("Samuel");
+        System.out.println("Balanced " + tree.isBalanced());
+        System.out.println("------------------------------");
+        System.out.println(tree);
+        System.out.println("------------------------------");
+        tree.balance();
+        System.out.println("Balanced " + tree.isBalanced());
+        System.out.println("------------------------------");
+        System.out.println(tree);
+        System.out.println("------------------------------");
 
 //        BinaryTree<Integer> tree = new AvlBinarySearch<>();
 //        tree.insert(8);
@@ -296,7 +296,7 @@ public class Main {
 //        System.out.println(map);
 //        System.out.println("-------------------------------------");
 
-        Set<String> set = new HashSet<>();
+/*        Set<String> set = new HashSet<>();
 
         set.add("Andres");
         set.add("Carlos");
@@ -332,6 +332,6 @@ public class Main {
 
         System.out.println("-------------------------------------");
         System.out.println(set);
-        System.out.println("-------------------------------------");
+        System.out.println("-------------------------------------");*/
     }
 }
